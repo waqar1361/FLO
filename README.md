@@ -2,7 +2,7 @@
 This is a system to find missing people developed on [Laravel](https://laravel.com/) framework. Users can report about 
 missing people (if they lost or found someone).
 
-##Installation:
+#Installation:
 
 1. Download and extract zip
 2. Use terminal command for : 
