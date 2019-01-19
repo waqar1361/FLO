@@ -4,7 +4,7 @@ missing people (if they lost or found someone).
 
 # Installation:
 
-1. Download and extract zip
+1. [Download](https://github.com/waqar1361/FLO/archive/v0.1.zip) and extract zip
 2. Use terminal command for : 
     ```
         1. composer install
