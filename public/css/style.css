@@ -1,0 +1,85 @@
+body {
+  font-family : Verdana, sans-serif;
+}
+
+main {
+  min-height : 80vh;
+}
+
+.navbar {
+  background : #fff;
+}
+
+.nav-link .fa, .nav-link .fas, .nav-link .far, .nav-link .fab {
+  margin-right : 7px;
+}
+
+.slider, .slider .carousel-item {
+  height     : 90vh;
+  max-height : 90vh;
+}
+
+.slider .carousel-item img {
+  height     : 100%;
+  max-height : 100%;
+}
+
+.sidebar {
+  border-right : 2px solid rgba(0, 0, 0, 0.1);
+  border-top   : 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.card-300 {
+  display        : flex;
+  flex-direction : row;
+}
+
+.card-300 .card-img {
+  height : 300px;
+  width  : 300px;
+}
+
+.card-300 .card-img img {
+  width      : auto;
+  max-height : 100%;
+}
+
+.card-text {
+  padding   : 0.7rem;
+  font-size : .81rem;
+}
+
+#to-top {
+  position  : fixed;
+  bottom    : 25px;
+  right     : 35px;
+  color     : rgba(0, 0, 0, 0.6);
+  font-size : 1.6rem;
+  z-index   : 500;
+}
+
+#to-top:hover {
+  color : rgba(0, 0, 0, 1);
+}
+
+
+footer {
+  border-top : 1px solid rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+  width              : 3px;
+  height             : 2px;
+  background-color   : transparent;
+  -webkit-box-shadow : inset 0 0 6px rgba(0, 0, 0, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+  background         : #333;
+  -webkit-box-shadow : inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+::selection {
+  background : orange;
+  color      : white;
+}
