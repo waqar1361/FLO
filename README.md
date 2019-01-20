@@ -14,7 +14,10 @@ missing people (if they lost or found someone).
 4. Migrate your tables
     ```
          php artisan migrate
-5. You are done...
+5. Link storage
+    ```
+        php artisan storage:link
+6. You are done...
 
 ## Author
 
